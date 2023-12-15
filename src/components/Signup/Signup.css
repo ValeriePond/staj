@@ -1,0 +1,73 @@
+body {
+  background-color: olive;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgb(168, 118, 0);
+  line-height: 1;
+}
+.overlay {
+  display: flex;
+  width: 360px;
+  margin: 120px auto;
+  border: 1px solid rgb(106, 106, 0);
+  padding: 36px 64px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 1px 9px 18px 0px rgba(56, 80, 34, 0.2);
+}
+
+.text {
+  font-size: 18px;
+  color: rgb(94, 94, 0);
+}
+
+input {
+  width: 300px;
+  height: 32px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+.buttonRegistration {
+  width: 200px;
+  height: 40px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  background: rgb(106, 106, 0);
+  color: white;
+  border: 1px solid rgb(106, 106, 0);
+  border-radius: 8px;
+}
+
+.buttonRegistration:hover {
+  background: rgb(168, 118, 0);
+  cursor: pointer;
+}
+
+.buttonConfirm {
+  width: 320px;
+  height: 40px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  background: rgb(106, 106, 0);
+  color: white;
+  border: 1px solid rgb(106, 106, 0);
+  border-radius: 8px;
+}
+
+.buttonConfirm:hover {
+  background: rgb(168, 118, 0);
+  cursor: pointer;
+}
+
+.confirmation {
+  color: rgb(106, 106, 0);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
